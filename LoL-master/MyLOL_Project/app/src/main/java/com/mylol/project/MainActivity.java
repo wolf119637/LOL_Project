@@ -6,7 +6,6 @@ import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.FrameLayout;
-
 import com.ashokvarma.bottomnavigation.BottomNavigationBar;
 import com.ashokvarma.bottomnavigation.BottomNavigationItem;
 import com.it.administrator.mylol_project.R;
@@ -14,7 +13,6 @@ import com.mylol.project.ui.fragment.HomeFt;
 import com.mylol.project.ui.fragment.MineFt;
 import com.mylol.project.ui.fragment.MomentFt;
 import com.mylol.project.ui.fragment.VideoFt;
-
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
@@ -38,7 +36,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
-
         fm = getSupportFragmentManager();
         initBottomBar();
 
